@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#userInput{
+    height: 40px;
+    width: 150px;
+    border-radius: 3px;
+    border: 1px solid rgb(192, 189, 189);
+}
+
+#btn{
+    height: 40px;
+    width: 80px;
+}
+
+#container{
+    height: 350px;
+    width: 200px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
